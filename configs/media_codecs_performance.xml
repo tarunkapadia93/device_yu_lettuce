@@ -68,6 +68,7 @@
         </MediaCodec>
         <MediaCodec name="OMX.ffmpeg.mpeg4.decoder" type="video/mp4v-es" update="true">
             <Limit name="measured-frame-rate-176x144" range="788-788" />
+	    <Limit name="measured-frame-rate-480x360" range="440-440" />
         </MediaCodec>
         <MediaCodec name="OMX.qcom.video.decoder.mpeg4" type="video/mp4v-es" update="true">
             <Limit name="measured-frame-rate-480x360" range="568-568" />
