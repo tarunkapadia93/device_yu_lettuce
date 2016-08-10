@@ -25,3 +25,10 @@ ro.fusion.magfield.max=250
 
 # Factory Reset Protection
 ro.frp.pst=/dev/block/bootdevice/by-name/config
+
+# disable camera debug spam
+persist.camera.hal.debug.mask=0
+
+# use 3 threads max for dex2oat
+ro.sys.fw.dex2oat_thread_count=3
+
